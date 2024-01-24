@@ -8,3 +8,17 @@ solution
 PS D:\Income_Prediction> rm .git/index.lock
 
 ----------------------------------------------------------
+
+Traceback (most recent call last):
+  File "C:\python37\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\python37\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "D:\Income_Prediction\main.py", line 2, in <module>
+    from income_pred.logger import logging
+ImportError: cannot import name 'logging' from 'income_pred.logger' (D:\Income_Prediction\income_pred\logger\__init__.py)
+
+solution:
+deleted logger folder.
+
+----------------------------------------------------------
