@@ -68,3 +68,5 @@ Solution:
 In utils.py add this lone - os.makedirs(dir_path,exist_ok=True)
  
 ----------------------------------------------------------
+
+Best Model Found, Model Name is: Random Forest,Accuracy_Score: 0.7864167178856791

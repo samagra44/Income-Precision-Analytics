@@ -7,6 +7,7 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 from income_pred.components.data_transformation import DataTransformation
 # from income_pred.components.data_transformation import DataTransfromartionConfig
+from income_pred.components.model_trainer import ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
@@ -50,3 +51,6 @@ if __name__ == "__main__":
     train_data_path, test_data_path = obj.initiate_data_ingestion()
     data_transformation = DataTransformation()
     train_arr,test_arr, _ = data_transformation.inititate_data_transformation(train_data_path,test_data_path)
+
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.inititate_model_trainer(train_arr, test_arr))
