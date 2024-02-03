@@ -52,30 +52,39 @@ Custom exception handling and logging mechanisms are implemented to enhance code
 
 ## Data Visualization
 
-1. Distribution of numerical features    
+1. **Distribution of numerical features**
+   
 ![IMG_1](https://github.com/samagra44/Income_Prediction/assets/77968722/afae406a-2ca5-4560-ab80-15e9446d3aeb)
 
-2. income VS workclass     
+2. **Income VS Workclass**
+    
 ![IMG_2](https://github.com/samagra44/Income_Prediction/assets/77968722/b101ffd9-dfc4-4d5d-aeb8-e15e92c7f2e5)
 
-3. income VS education
+3. **Income VS Education**
+
 ![IMG_3](https://github.com/samagra44/Income_Prediction/assets/77968722/d7bf5df7-c7bd-467c-9de5-69308a6a5e6a)
 
-4. income VS marital.status
+4. **Income VS Marital Status**
+
 ![IMG_4](https://github.com/samagra44/Income_Prediction/assets/77968722/b61939d3-e0c2-43c3-a893-23d505d22909)
 
-5. income VS occupation
+5. **Income VS Occupation**
+
 ![IMG_5](https://github.com/samagra44/Income_Prediction/assets/77968722/8a2478a9-54e4-45a7-9bdc-9f629e469d11)
 
-6. income VS relationship
+6. **Income VS Relationship**
+
 ![IMG_6](https://github.com/samagra44/Income_Prediction/assets/77968722/7e67dfa0-8616-49bd-a831-8168c1574c3f)
 
-7. income VS sex
+7. **Income VS Sex**
+    
 ![IMG_7](https://github.com/samagra44/Income_Prediction/assets/77968722/d0329cdc-7164-492c-a4d6-bf1672b9e340)
 
 # Output:
 
-![New Tab - Brave 2024-02-03 15-48-04](https://github.com/samagra44/Income_Prediction/assets/77968722/bc2f3485-9ced-469f-8d9b-de416d22e99b)
+<p align="center">
+<img src="https://github.com/samagra44/Income_Prediction/assets/77968722/bc2f3485-9ced-469f-8d9b-de416d22e99b" width=700 height=300 alt="animated"/>
+</p>
 
 ## Conclusion
 
