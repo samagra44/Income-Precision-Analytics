@@ -70,3 +70,37 @@ In utils.py add this lone - os.makedirs(dir_path,exist_ok=True)
 ----------------------------------------------------------
 
 Best Model Found, Model Name is: Random Forest,Accuracy_Score: 0.7864167178856791
+
+
+Traceback (most recent call last):
+  File "C:\python37\lib\site-packages\flask\app.py", line 2551, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "C:\python37\lib\site-packages\flask\app.py", line 2531, in wsgi_app
+    response = self.handle_exception(e)
+  File "C:\python37\lib\site-packages\flask\app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\python37\lib\site-packages\flask\app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\python37\lib\site-packages\flask\app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\python37\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "D:\Income_Prediction\main.py", line 21, in prediction_data
+    return render_template('home.html')
+  File "C:\python37\lib\site-packages\flask\templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "C:\python37\lib\site-packages\jinja2\environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "C:\python37\lib\site-packages\jinja2\environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "C:\python37\lib\site-packages\jinja2\environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "C:\python37\lib\site-packages\jinja2\loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "C:\python37\lib\site-packages\flask\templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "C:\python37\lib\site-packages\flask\templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: home.html
+
+solution - make home.html
