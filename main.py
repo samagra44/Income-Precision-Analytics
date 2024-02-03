@@ -40,9 +40,9 @@ def prediction_data():
     result = pred
     
     if result == 0:
-        return render_template("results.html", final_result="Your Income is less")
+        return render_template("results.html", final_result="Your Yearly Income is Less than Equal to 50K:{}".format(result))
     elif result == 1:
-        return render_template("results.html",final_result="Your income is more")
+        return render_template("results.html",final_result="Your Yearly Income is More than Equal to 50K:{}".format(result))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0",debug=True)
